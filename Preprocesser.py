@@ -1,3 +1,9 @@
+"""
+Preprocessing
+
+Does nothing but added for nomanclature
+"""
+
 class Preprocesser(object):
     def __init__(self, data):
         self.data = data

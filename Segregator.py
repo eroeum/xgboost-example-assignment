@@ -1,3 +1,9 @@
+"""
+Segregates data into training and testing data
+
+Basically just a big wrapper for train_test_split
+"""
+
 from sklearn.model_selection import train_test_split
 
 class Segregator(object):
